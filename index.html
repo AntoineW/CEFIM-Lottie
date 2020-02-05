@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="utf-8" >
+    <title>CEFIM / Lottie player</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.2.0/dist/lottie-player.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>
+      CEFIM
+      <small>Lottie player</small>
+    </h1>
+
+    <section class="section section--1">
+      <h2>
+        <b>#1</b> Player par défaut
+      </h2>
+
+      <lottie-player
+        id="player-1"
+        controls
+        loop
+        mode="normal"
+        src="15140-first-animation.json"
+      >
+      </lottie-player>
+    </section>
+
+    <section class="section section--2">
+      <h2>
+        <b>#2</b> Déclenchement au scroll
+      </h2>
+
+      <lottie-player
+        id="player-2"
+        mode="normal"
+        src="15140-first-animation.json"
+      >
+      </lottie-player>
+    </section>
+
+    <section class="section section--3">
+      <h2>
+        <b>#3</b> Controle au scroll
+      </h2>
+
+      <lottie-player
+        id="player-3"
+        mode="normal"
+        src="15140-first-animation.json"
+      >
+      </lottie-player>
+    </section>
+
+    <section class="section section--4">
+      <h2>
+        <b>#4</b> Déclenchement au click
+      </h2>
+
+      <lottie-player
+        id="player-4"
+        loop
+        mode="normal"
+        src="15140-first-animation.json"
+      >
+      </lottie-player>
+    </section>
+
+    <section class="section section--5">
+      <h2>
+        <b>#5</b> Controle à la souris
+      </h2>
+
+      <lottie-player
+        id="player-5"
+        mode="normal"
+        src="15140-first-animation.json"
+      >
+      </lottie-player>
+    </section>
+  </body>
+</html>
